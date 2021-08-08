@@ -1,14 +1,25 @@
+body, html {
+    height: 100%;
+    background-color: #02203c !important;
+    overflow: hidden;
+    color: white !important;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
 .App {
-    /* display: grid; 
-    grid-template-columns: 33% 33% 33%;
-    grid-template-rows: 100%;
-    grid-gap: 5%; */
-    background-color: #02203c;
+    display: grid; 
+    place-items: center;
+    height: 100%;
+    margin-top: 2%;
+    grid-template-columns: 49% 49%;
+    grid-template-rows: 25% 75%;
+    grid-gap: 2%;
+    padding: 1em;
 }
 
 .photo>img {
-    width: 100%;
-    height: 100%;
+    width: 90%;
+    height: 50%;
     display: block;
     object-fit: cover;
 }
@@ -17,4 +28,34 @@
     width: 100%;
     height: 100%;
     position: relative;
+}
+.ui.selection.dropdown {
+    background-color: #2e3741 !important;
+}
+.visible.menu.transition {
+    background-color: #2e3741 !important;
+
+}
+.divider.text
+{
+    color: white !important;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+.item {
+    color: white !important;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+#info {
+    grid-column: 2;
+    grid-row: 1;
+    color: white !important;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+button.ui.grey.basic.button {
+    color: white !important;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
 }
